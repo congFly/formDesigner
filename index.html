@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap 2 Form Builder</title>
+    <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="assets/css/lib/bootstrap-responsive.min.css" rel="stylesheet">-->
+
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+</head>
+<body>
+<div class="select" style="width: 35%;float: right;margin-right: 10px">
+    <h2>拖放组件(下方组件拖放到右边表中)</h2>
+    <hr>
+    <div class="tabbable">
+        <ul class="nav nav-tabs" id="formtabs">
+        </ul>
+        <form class="form-horizontal" id="components">
+            <fieldset>
+                <div class="tab-content">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<div class="input" style="width: 60%;;margin-left: 10px">
+    <h2>你的表单</h2>
+    <hr>
+    <div id="build">
+        <form id="target" class="form-horizontal">
+        </form>
+    </div>
+</div>
+
+
+<script data-main="assets/js/main-built.js" src="assets/js/lib/require.js"></script>
+
+</body>
+</html>
